@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Общая информация</legend>
+                <div class="main_info">
+                    <div class="field">
+                        <label for="input_surname">Фамилия</label>
+                        <input id='input_surname' type="text" name="surname" placeholder="Фамилия">
+                    </div>
+                    <div class="field">
+                        <label for="input_name">Имя</label>
+                        <input id='input_name' type="text" name="name" placeholder="Имя">
+                    </div>
+                    <div class="field">    
+                        <label for="input_second_name">Отчество</label>
+                        <input id='input_second_name' type="text" name="second_name" placeholder="Отчество">
+                    </div>
+                    <div class="field">
+                        <label for="input_email">email</label>
+                        <input id='input_email"' type="text" name="email" placeholder="mail@mail.ru">
+                    </div>
+                </div>
+        </fieldset>
+        <fieldset>
+            <legend>Пол</legend>
+                <div class="info_sex">
+                    <label for="Choice1">М
+                        <input type="radio" id="Choice1" name="sex">
+                    </label>
+                    <label for="Choice2">Ж
+                        <input type="radio" id="Choice2" name="sex">
+                    </label>
+                </div>
+        </fieldset>
+        <fieldset>
+            <legend>Хобби</legend>
+                <div class="hobby_info">
+                    <input type="checkbox" id="H_Choice1" name="draw">
+                    <label for="H_Choice1">Рисование</label>
+                    <input type="checkbox" id="H_Choice2" name="read">
+                    <label for="H_Choice2">Чтение</label>
+                    <input type="checkbox" id="H_Choice3" name="twist">
+                    <label for="H_Choice3">Вязание</label>
+                    <input type="checkbox" id="H_Choice4" name="baker">
+                    <label for="H_Choice4">Кулинария</label>
+                </div>
+        </fieldset>
+        <div>
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </div>
+    </form>
+    <style type="text/css">
+        .field {clear:both; text-align:right;}
+        .field label {float:left;padding-right:10px;}
+        .main_info {float:left;}
+    </style>
+</body>
+</html>
